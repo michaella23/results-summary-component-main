@@ -20,6 +20,30 @@
     --grad-persian-blue: hsla(241, 72%, 46%, 0);
 }
 
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
 .result-val {
     display: block;
+}
+
+.reaction-category {
+    color: var(--light-red);
+}
+
+.memory-category {
+    color: var(--orangey-yellow);
+}
+
+.verbal-category {
+    color: var(--green-teal);
+}
+
+.visual-category {
+    color: var(--cobalt-blue);
+}
+
+.score-span {
+    font-weight: bold;
 }
